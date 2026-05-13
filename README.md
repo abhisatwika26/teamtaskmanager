@@ -60,7 +60,11 @@ team-task-manager/
 │   └── vite.config.js
 ├── .gitignore
 └── README.md
-💻 Local Setup Instructions
+```
+---
+
+##  💻 Local Setup Instructions
+
 Prerequisites
 Node.js installed
 
@@ -82,12 +86,14 @@ Create a .env file inside the backend folder and add the following:
 
 Code snippet
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/teamtaskmanager
+MONGO_URI= your mongodb url
 JWT_SECRET=your_super_secret_jwt_key
+
 Start the backend server:
 
 Bash
 npm run dev
+
 3. Frontend Setup
 Open a new terminal window and navigate to the frontend folder:
 
@@ -104,7 +110,7 @@ Bash
 npm run dev
 The application should now be running locally at http://localhost:5173.
 
-🚀 Deployment Instructions (Railway)
+## 🚀 Deployment Instructions (Railway)
 This application is configured for seamless deployment as a monorepo on Railway.
 
 Step 1: Provision the Database
@@ -136,4 +142,4 @@ VITE_API_URL: (Paste the Backend domain URL generated in Step 2. Must include ht
 
 Go to Settings -> Networking and click Generate Domain.
 
-Your application is now live and fully connected!
+Application is now live and fully connected!
