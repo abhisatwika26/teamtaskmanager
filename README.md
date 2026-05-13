@@ -1,86 +1,47 @@
-```markdown
-# 🚀 TeamSync - Team Task Manager
+# TeamSync - Team Task Manager 🚀
 
-TeamSync is a full-stack collaborative task management web application built with the **MERN stack**. It enables teams to create projects, assign tasks, track progress, and manage members using a **role-based access control system (Admin vs Member)**.
+TeamSync is a full-stack collaborative task management web application built with the MERN stack. It allows teams to create projects, assign tasks, track progress, and manage members through a role-based access control system (Admin vs. Member).
 
----
-
-## 🌐 Live Demo
-> *(https://teamtaskmanagerethara.up.railway.app/)*
+![Live Demo](https://teamtaskmanagerethara.up.railway.app/)
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots of Working Application
 
-### 🔐 Login & Authentication
-<img src="link-to-your-login-screenshot.png" width="600" alt="Login Screen">
+### Login & Authentication
+> `<img src="./screenshots/signup_page.png" width="600" alt="Signup Screen">`
+> `<img src="./screenshots/login_page.png" width="600" alt="Login Screen">`
 
-### 📊 Admin Dashboard & Task Management
-<img src="link-to-your-admin-dashboard-screenshot.png" width="600" alt="Admin Dashboard">
-
-### 👥 Member View
-<img src="link-to-your-member-view-screenshot.png" width="600" alt="Member View">
+### Admin Dashboard & Task Management
+> `<img src="./screenshots/admin_dashboard.png" alt="Admin Dashboard">`
+> `<img src="./screenshots/admin_manage_team.png" width="600" alt="Admin Dashboard">`
+### Member View
+> `<img src="./screenshots/member_dashboard.png" width="600" alt="Member View">`
 
 ---
 
 ## ✨ Key Features
-
-- 🔐 **Role-Based Access Control (RBAC)**  
-  Separate dashboards and permissions for Admins and Members.
-
-- 📝 **Task Management**  
-  Admins can create tasks with:
-  - Due Dates  
-  - Priorities (Low, Medium, High)  
-  - Member assignment  
-
-- 📈 **Progress Tracking**  
-  Members can update task statuses:
-  - To Do  
-  - In Progress  
-  - Done  
-
-- 👨‍👩‍👧 **Team Management**  
-  Admins can add or remove team members.
-
-- 🔑 **Secure Authentication**  
-  JWT-based login, signup, and password reset.
-
-- 📊 **Responsive Dashboard**  
-  Real-time stats:
-  - Total tasks  
-  - Completed  
-  - In-progress  
-  - Overdue  
+* **Role-Based Access Control (RBAC):** Distinct dashboards and permissions for Admins and Members.
+* **Task Management:** Admins can create tasks with Due Dates, Priorities (Low, Medium, High), and assign them to specific members.
+* **Progress Tracking:** Members can update their assigned task statuses (To Do, In Progress, Done).
+* **Team Management:** Admins can seamlessly add or revoke access for team members.
+* **Secure Authentication:** JWT-based secure login, signup, and direct password reset functionality.
+* **Responsive Dashboard:** Real-time statistics tracking total, completed, in-progress, and overdue tasks.
 
 ---
 
 ## 🛠️ Tech Stack
-
-### Frontend
-- React.js (Vite)
-- Tailwind CSS
-- React Router DOM
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-- JSON Web Tokens (JWT)
-- Bcrypt.js
-
-### Database
-- MongoDB (Mongoose ODM)
-
-### Deployment
-- Railway
+* **Frontend:** React.js (Vite), Tailwind CSS, React Router DOM, Axios
+* **Backend:** Node.js, Express.js, JSON Web Tokens (JWT), Bcrypt.js
+* **Database:** MongoDB (Mongoose ODM)
+* **Deployment:** Railway
 
 ---
 
-## 📁 Project Structure
+## 📁 Directory Structure
+This project uses a monorepo structure, housing both the client and server in a single repository.
 
-```
-
+```text
 team-task-manager/
 ├── backend/                # Node.js & Express API
 │   ├── middleware/         # JWT Auth & Role validation
@@ -88,7 +49,6 @@ team-task-manager/
 │   ├── routes/             # API Endpoints (auth, tasks, users)
 │   ├── package.json
 │   └── server.js           # Backend Entry Point
-│
 ├── frontend/               # React & Vite Application
 │   ├── src/
 │   │   ├── context/        # Global Auth Context
@@ -98,12 +58,9 @@ team-task-manager/
 │   ├── package.json
 │   ├── tailwind.config.js
 │   └── vite.config.js
-│
 ├── .gitignore
 └── README.md
-
-````
-
+```
 ---
 
 ## 💻 Local Setup Instructions
