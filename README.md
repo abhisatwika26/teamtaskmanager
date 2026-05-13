@@ -10,14 +10,14 @@ TeamSync is a full-stack collaborative task management web application built wit
 
 
 ### Login & Authentication
-> `<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d551711d-32e9-4968-91eb-5270a3bdc089" />`
-> `<img src="./screenshots/login_page.png" width="600" alt="Login Screen">`
+![Signup Screen](screenshots/signup_page.png)
+![Login Screen](screenshots/login_page.png)
 
 ### Admin Dashboard & Task Management
-> `<img src="./screenshots/admin_dashboard.png" alt="Admin Dashboard">`
-> `<img src="./screenshots/admin_manage_team.png" width="600" alt="Admin Dashboard">`
+![Admin dashboard](screenshots/admin_dashboard.png)
+![Admin manage team](screenshots/admin_manage_team.png)
 ### Member View
-> `<img src="./screenshots/member_dashboard.png" width="600" alt="Member View">`
+![Member dashboard](screenshots/member_dashboard.png)
 
 ---
 
