@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Team Task Manager
 
 A full-stack MERN application for managing projects and tasks.
@@ -15,3 +16,7 @@ A full-stack MERN application for managing projects and tasks.
 2. `npm install`
 3. Create a `.env` file from `.env.example`.
 4. `npm run dev`
+=======
+# teamtaskmanager
+design and develop a Team Task Management Web Application assigned by ethara
+>>>>>>> c014088d7e366a5dc516c412d09cf58a9209a479
