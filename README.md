@@ -2,7 +2,7 @@
 
 TeamSync is a full-stack collaborative task management web application built with the MERN stack. It allows teams to create projects, assign tasks, track progress, and manage members through a role-based access control system (Admin vs. Member).
 
-![Live Demo](https://teamtaskmanagerethara.up.railway.app/)
+Demo link: (https://teamtaskmanagerethara.up.railway.app/)
 
 ---
 
