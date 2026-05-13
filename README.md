@@ -8,8 +8,9 @@ TeamSync is a full-stack collaborative task management web application built wit
 
 ## 📸 Screenshots of Working Application
 
+
 ### Login & Authentication
-> `<img src="./screenshots/signup_page.png" width="600" alt="Signup Screen">`
+> `<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d551711d-32e9-4968-91eb-5270a3bdc089" />`
 > `<img src="./screenshots/login_page.png" width="600" alt="Login Screen">`
 
 ### Admin Dashboard & Task Management
